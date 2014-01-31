@@ -1,0 +1,99 @@
+body {
+background-color:#FFFFFF;
+font-family:"Times New Roman", Times, serif;
+font-size:14px;
+margin-top:0px;
+margin-bottom:0px;
+margin-left:0px;
+margin-right:0px;
+}
+a {
+text-decoration:none;
+
+}
+
+.curved-box-css3
+    {
+    width: 278px;    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color:#000000;
+}
+
+.curved-box1-css3
+    {
+	 
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.curved-box-css3 td
+    {
+    margin: 0px;
+     
+} 
+
+#container {
+width:100%;
+height:auto;
+}
+#header {
+width:100%;
+height:auto;
+}
+#main {
+width:100%;
+height:auto;
+
+}
+#footer {
+width:100%;
+height:auto;
+font-size:16px;
+}
+ul#topnav {
+	margin: 0; padding: 0;
+	float: left;
+	width: 70%;
+	list-style: none;
+	position: relative;
+	font-size: 14px;
+	background:url(../../../../../Deal_Broker/images/topnav_s.gif) repeat-x;
+	background-color:#000000;
+}
+ul#topnav li {
+	float: left;
+	border-right: 1px solid #555;
+	border-left: 1px solid #555;
+	
+	
+}
+ul#topnav li a {
+	padding: 10px 15px;
+	display: block;
+	color: #f0f0f0;
+	text-decoration: none;
+}
+ul#topnav li:hover { background:url(../../../../../Deal_Broker/images/topnav_a.gif) repeat-x; }
+ul#topnav li span {
+	float: left;
+	padding: 15px 0;
+	position: absolute;
+	left: 0; left:50px;
+	display: none;
+	width: 500px;
+	padding-left:50px;
+	background: #1376c9;
+	color: #fff;
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+ul#topnav li:hover span { display: block; }
+ul#topnav li span a { display: inline; }
+ul#topnav li span a:hover {text-decoration: underline;}

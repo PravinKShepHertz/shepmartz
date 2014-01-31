@@ -1,0 +1,9 @@
+---
+applications:
+- name: martz
+  framework: grails
+  runtime: java
+  memory: 512M
+  instances: 1
+  url: none
+  path: .
