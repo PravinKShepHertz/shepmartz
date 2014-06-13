@@ -25,8 +25,14 @@ environments {
     }
     production {
         dataSource {
+            pooled = true
+            driverClassName = "com.mysql.jdbc.Driver"
+            username = "ag4gytq3cxmivuvw"
+            password = "aco9m17f3urhndxq5kckqpb8odm30b6b"
+            url = "jdbc:mysql://192.168.3.241:10394/demo_db"
+            dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
             dbCreate = "update"
-            url = "jdbc:hsqldb:file:prodDb;shutdown=true"
+            // url = "com.mysql.jdbc.Driver;shutdown=true"
         }
     }
 }
